@@ -1,4 +1,3 @@
-// src/App.jsx (FINAL)
 import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
@@ -9,11 +8,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    // Mengatur background putih sesuai gambar
     <div className="min-h-screen bg-white flex flex-col">
       
       <Navbar />
-
       <main className="flex-grow">
         <HeroSection />
         <Schedule /> 
